@@ -66,7 +66,7 @@ window.addEventListener("load", () => {
 upgrade1.addEventListener("click", () => { 
     if(Cash >= clickupgrd){
         x++;
-        Cash -= 50;
+        Cash -= upgrounded;
         clickupgrd *= 1.11;
         upgrounded = Math.ceil(clickupgrd);
         CashMade.innerHTML = Cash;
